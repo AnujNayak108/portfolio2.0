@@ -11,7 +11,7 @@ const MANUAL_ORGS: OrgDetail[] = [
   // Example format - uncomment and edit:
   {
   login: "OpenClimateFix",
-  avatar_url: "https://private-user-images.githubusercontent.com/47188100/473047584-fe292c14-04b8-4131-8bbc-005baab8b438.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjIwOTUyODgsIm5iZiI6MTc2MjA5NDk4OCwicGF0aCI6Ii80NzE4ODEwMC80NzMwNDc1ODQtZmUyOTJjMTQtMDRiOC00MTMxLThiYmMtMDA1YmFhYjhiNDM4LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTExMDIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMTAyVDE0NDk0OFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTM0ZGE3NjEzMGVhNGY5OWZjYzlmZWRiZDM0N2Y3OGViNzk1ZWEwMzJjOGJhN2QzMjNmNGUwZDYyYmFjZmU5ZGUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.qz762QKf70tDMN8VizEVZP2hVIVCC3Zb3QeEVxZdwww",
+  avatar_url: "https://avatars.githubusercontent.com/u/48357542?s=200&v=4",
   Skill : "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
   },
   {
