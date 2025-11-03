@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Light theme variables */
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    --primary: 221 83% 53%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222 47% 11%;
+
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
+
+    --accent: 221 83% 53%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 63% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 221 83% 53%;
+
+    --radius: 0.75rem;
+
+    /* Light theme aesthetics */
+    --gradient-primary: linear-gradient(135deg, hsl(0 0% 100%) 0%, hsl(221 83% 53% / 0.08) 100%);
+    --gradient-radial: radial-gradient(circle at 50% 0%, hsl(221 83% 53% / 0.08) 0%, transparent 50%);
+    --shadow-glow: 0 0 30px hsl(221 83% 53% / 0.15);
+    --shadow-card: 0 8px 32px hsl(210 40% 96% / 0.7);
+  }
+
+  .dark {
+    /* Dark theme variables (previous defaults) */
+    --background: 220 15% 6%;
+    --foreground: 0 0% 98%;
+
+    --card: 220 13% 9%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 220 13% 9%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 210 40% 60%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 220 13% 15%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 220 10% 20%;
+    --muted-foreground: 220 5% 65%;
+
+    --accent: 210 40% 60%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 63% 50%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 220 10% 18%;
+    --input: 220 10% 18%;
+    --ring: 210 40% 60%;
+
+    --radius: 0.75rem;
+
+    /* Dark theme aesthetics */
+    --gradient-primary: linear-gradient(135deg, hsl(220 15% 12%) 0%, hsl(210 40% 60% / 0.1) 100%);
+    --gradient-radial: radial-gradient(circle at 50% 0%, hsl(210 40% 60% / 0.05) 0%, transparent 50%);
+    --shadow-glow: 0 0 30px hsl(210 40% 60% / 0.15);
+    --shadow-card: 0 8px 32px hsl(220 15% 3% / 0.5);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body overflow-x-hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary;
+  }
+
+  .glass-card {
+    @apply bg-card/50 backdrop-blur-md border border-border/50;
+  }
+}
