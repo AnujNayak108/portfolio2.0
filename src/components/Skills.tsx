@@ -54,7 +54,7 @@ const Skills = () => {
   const skillCategories = [
     {
       title: "Web Development",
-      skills: ["React", "Next.js", "JavaScript" ,"TypeScript", "Tailwind CSS", "Node.js", "Express.js" , "GraphQL"]
+      skills: ["React", "Next.js", "JavaScript" ,"TypeScript", "Tailwind CSS", "Node.js", "Express.js" , "MongoDB", "Firebase" , "GraphQL"]
     },
     {
       title: "Data Science",
@@ -91,6 +91,8 @@ const Skills = () => {
   "VS Code": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg",
   "PostgreSQL": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
   "Java": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
+  "Firebase": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-plain.svg",
+  "MongoDB": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
 };
 
   return (
