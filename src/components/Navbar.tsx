@@ -24,8 +24,8 @@ export function Navbar() {
   const navItems = [
     { name: 'About', link: '#about', icon: <FaUser /> },
     { name: 'Skills', link: '#skills', icon: <FaCode /> },
-    { name: 'Projects', link: '#projects', icon: <FaProjectDiagram /> },
     { name: 'opensource', link: '#opensource', icon: <FaGithub /> },
+    { name: 'Projects', link: '#projects', icon: <FaProjectDiagram /> },
     { name: 'Achievement', link: '#achievements', icon: <GrAchievement /> },
   ]
 
