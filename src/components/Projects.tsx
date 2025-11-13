@@ -86,6 +86,24 @@ const Projects = () => {
       liveUrl: "https://dhwani-slot-booking.vercel.app/",
       gradient: "from-secondary/20 to-accent/20",
     },
+    {
+      title: "Offical Documents Forgery Analysis Dashboard",
+      description: "A dashboard for analyzing and detecting forgery in official documents using image processing and machine learning techniques.",
+      tags: ["Next.js", "Typescript", "TailwindCSS" , "Node.js" , "Python" , "Matplotlib"],
+      image: "analytics.gif",
+      githubUrl: "https://github.com/AnujNayak108/DHWANI-SLOT-BOOKING.git",
+      liveUrl: "https://dhwani-slot-booking.vercel.app/",
+      gradient: "from-secondary/20 to-accent/20",
+    },
+    {
+      title: "Sarkari-Suvidha",
+      description: "An application which helps users understand and access various government schemes and services easily.",
+      tags: ["Next.js", "Python" , "Typescript", "TailwindCSS" , "Node.js" , "GenAI"],
+      image: "sarkari.png",
+      githubUrl: "https://github.com/AnujNayak108/DHWANI-SLOT-BOOKING.git",
+      liveUrl: "https://sarkari-suvidha.vercel.app/",
+      gradient: "from-secondary/20 to-accent/20",
+    },
   ];
 
   return (

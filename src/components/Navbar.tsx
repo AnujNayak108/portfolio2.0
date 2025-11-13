@@ -40,7 +40,6 @@ export function Navbar() {
       <NavbarWrapper className="flex flex-col items-center justify-between gap-4 px-4 py-2">
         <NavBody>
           <NavbarLogo isScrolled={isScrolled} />
-
           <NavItems items={navItems} isScrolled={isScrolled} />
 
           <div className="flex items-center gap-2">

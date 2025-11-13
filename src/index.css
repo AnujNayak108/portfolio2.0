@@ -84,6 +84,10 @@ All colors MUST be HSL.
     --shadow-glow: 0 0 30px hsl(210 40% 60% / 0.15);
     --shadow-card: 0 8px 32px hsl(220 15% 3% / 0.5);
   }
+
+  .bg-gradient-radial {
+  background: var(--gradient-radial);
+  }
 }
 
 @layer base {
